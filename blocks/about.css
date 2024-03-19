@@ -1,0 +1,58 @@
+.about {
+  background-color: #0a2850;
+  color: #ffffff;
+  padding: 100px 80px;
+  overflow: hidden;
+  position: relative;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 0;
+}
+
+.about__title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  z-index: 1;
+  padding-top: 100px;
+  padding-left: 80px;
+  max-width: 251px;
+  margin: 0;
+}
+
+.about__content {
+  max-width: 660px;
+  margin-right: 80px;
+  margin-bottom: 173px;
+  margin-top: 119px;
+}
+
+.about__paragraph {
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0;
+  padding-bottom: 20px;
+}
+
+.about__paragraph:last-of-type {
+  padding-bottom: 0;
+}
+
+.about__circle {
+  background-color: #2f80ed;
+  position: absolute;
+  width: 426px;
+  height: 426px;
+  border-radius: 50%;
+  top: -152px;
+  left: -129px;
+  z-index: 0;
+}
